@@ -195,6 +195,12 @@
         <mxCell id="asi3F6xkpewopYFU44qQ-2" value="Заказ у поставщика" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="414" y="500" width="86" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="asi3F6xkpewopYFU44qQ-3" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0.07;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-zhPnNDlGn2-ttYfR2xw-1" target="-zhPnNDlGn2-ttYfR2xw-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="371" y="401" as="sourcePoint" />
+            <mxPoint x="426" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
