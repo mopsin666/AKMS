@@ -233,7 +233,7 @@
             <mxPoint x="230" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eAk17pfjXDm7x7rmT6Pb-15" value="Авторизоваться&lt;div&gt;(логин, пароль)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eAk17pfjXDm7x7rmT6Pb-14">
+        <mxCell id="eAk17pfjXDm7x7rmT6Pb-15" value="Авторизация&lt;div&gt;(логин, пароль)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eAk17pfjXDm7x7rmT6Pb-14">
           <mxGeometry x="-0.1383" relative="1" as="geometry">
             <mxPoint x="7" y="-20" as="offset" />
           </mxGeometry>
@@ -254,7 +254,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eAk17pfjXDm7x7rmT6Pb-19" value="Передать данные&lt;br&gt;&lt;div&gt;(логин, пароль)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eAk17pfjXDm7x7rmT6Pb-18">
+        <mxCell id="eAk17pfjXDm7x7rmT6Pb-19" value="Передача данных&lt;br&gt;&lt;div&gt;(логин, пароль)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eAk17pfjXDm7x7rmT6Pb-18">
           <mxGeometry x="-0.1383" relative="1" as="geometry">
             <mxPoint x="7" y="25" as="offset" />
           </mxGeometry>
@@ -272,9 +272,9 @@
             <mxPoint x="359.96" y="809.98" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eAk17pfjXDm7x7rmT6Pb-23" value="Предоставить&lt;div&gt;&amp;nbsp;доступ()&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eAk17pfjXDm7x7rmT6Pb-22">
+        <mxCell id="eAk17pfjXDm7x7rmT6Pb-23" value="Предоставление&lt;div&gt;&amp;nbsp;доступа()&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eAk17pfjXDm7x7rmT6Pb-22">
           <mxGeometry x="-0.2127" y="-1" relative="1" as="geometry">
-            <mxPoint x="21" y="43" as="offset" />
+            <mxPoint x="31" y="45" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eAk17pfjXDm7x7rmT6Pb-24" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
@@ -330,7 +330,7 @@
             <mxPoint x="440" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eAk17pfjXDm7x7rmT6Pb-37" value="Передать данные&lt;div&gt;(логин)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eAk17pfjXDm7x7rmT6Pb-36">
+        <mxCell id="eAk17pfjXDm7x7rmT6Pb-37" value="Передача данных&lt;div&gt;(логин)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eAk17pfjXDm7x7rmT6Pb-36">
           <mxGeometry x="0.3167" y="-3" relative="1" as="geometry">
             <mxPoint x="-19" y="17" as="offset" />
           </mxGeometry>
@@ -341,7 +341,7 @@
             <mxPoint x="560" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eAk17pfjXDm7x7rmT6Pb-39" value="Начать&amp;nbsp;&lt;div&gt;проверку(логин)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eAk17pfjXDm7x7rmT6Pb-38">
+        <mxCell id="eAk17pfjXDm7x7rmT6Pb-39" value="Начало&amp;nbsp;&lt;div&gt;проверки(логин)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eAk17pfjXDm7x7rmT6Pb-38">
           <mxGeometry x="0.3167" y="-3" relative="1" as="geometry">
             <mxPoint x="-19" y="17" as="offset" />
           </mxGeometry>
@@ -358,7 +358,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eAk17pfjXDm7x7rmT6Pb-42" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="680" y="920" width="10" height="80" as="geometry" />
+          <mxGeometry x="680" y="920" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="eAk17pfjXDm7x7rmT6Pb-43" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eAk17pfjXDm7x7rmT6Pb-42" target="eAk17pfjXDm7x7rmT6Pb-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -366,14 +366,14 @@
             <mxPoint x="573" y="734" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eAk17pfjXDm7x7rmT6Pb-45" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.487;exitY=0.313;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eAk17pfjXDm7x7rmT6Pb-46" target="eAk17pfjXDm7x7rmT6Pb-42">
+        <mxCell id="eAk17pfjXDm7x7rmT6Pb-45" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="eAk17pfjXDm7x7rmT6Pb-42">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="673" y="970" as="sourcePoint" />
+            <mxPoint x="685" y="960" as="sourcePoint" />
             <mxPoint x="683" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eAk17pfjXDm7x7rmT6Pb-46" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" vertex="1" parent="1">
-          <mxGeometry x="672.5" y="1050" width="20" height="20" as="geometry" />
+          <mxGeometry x="675" y="950" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="eAk17pfjXDm7x7rmT6Pb-51" value="" style="endArrow=open;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -479,7 +479,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="eAk17pfjXDm7x7rmT6Pb-78" value="Запросить&amp;nbsp;&lt;div&gt;список (история&amp;nbsp;&lt;/div&gt;&lt;div&gt;семинаров курса)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eAk17pfjXDm7x7rmT6Pb-77">
+        <mxCell id="eAk17pfjXDm7x7rmT6Pb-78" value="Запрос&amp;nbsp;&lt;div&gt;списка (история&amp;nbsp;&lt;/div&gt;&lt;div&gt;семинаров курса)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eAk17pfjXDm7x7rmT6Pb-77">
           <mxGeometry x="0.3167" y="-3" relative="1" as="geometry">
             <mxPoint x="23" y="-90" as="offset" />
           </mxGeometry>
