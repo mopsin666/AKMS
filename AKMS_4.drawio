@@ -23,7 +23,7 @@
           <mxGeometry x="690" y="80" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fiNiH6XZ2JWNiwSGFFQN-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="100" y="190" width="10" height="350" as="geometry" />
+          <mxGeometry x="100" y="190" width="10" height="390" as="geometry" />
         </mxCell>
         <mxCell id="fiNiH6XZ2JWNiwSGFFQN-8" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" source="fiNiH6XZ2JWNiwSGFFQN-7" target="fiNiH6XZ2JWNiwSGFFQN-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
