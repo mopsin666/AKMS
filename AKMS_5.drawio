@@ -66,8 +66,8 @@
             <mxPoint y="45" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZKrvtM32GSq0_KtgD34R-72" value="+Рассчитать стоимость заказа&lt;div&gt;(Код заказа)&lt;div&gt;+Пополнить товары в каталоге()&lt;/div&gt;&lt;div&gt;+Провести оплату(Код оплаты)&lt;/div&gt;&lt;div&gt;+Отправлять уведомления&lt;/div&gt;&lt;div&gt;(Код уведомления, Код заказа)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-7">
-          <mxGeometry x="5" y="50" width="200" height="100" as="geometry" />
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-72" value="+Рассчитать стоимость заказа&lt;div&gt;(Код заказа)&lt;div&gt;+Пополнить список товаров&lt;/div&gt;&lt;div&gt;&amp;nbsp;в каталоге()&lt;/div&gt;&lt;div&gt;+Провести оплату(Код оплаты)&lt;/div&gt;&lt;div&gt;+Отправить уведомление&lt;/div&gt;&lt;div&gt;(Код уведомления, Код заказа,&amp;nbsp;&lt;/div&gt;&lt;div&gt;Код посетителя)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-7">
+          <mxGeometry x="5" y="45" width="200" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ZKrvtM32GSq0_KtgD34R-9" value="Уведомление" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" width="170" height="130" as="geometry">
