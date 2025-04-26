@@ -39,7 +39,7 @@
           <mxGeometry x="-7.5" y="110" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZKrvtM32GSq0_KtgD34R-4" value="База заказов" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="30" width="170" height="130" as="geometry">
+          <mxGeometry x="375" y="30" width="170" height="130" as="geometry">
             <mxRectangle x="110" y="260" width="200" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -49,8 +49,11 @@
             <mxPoint y="64.71000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZKrvtM32GSq0_KtgD34R-52" value="-Код заказа:Integer&lt;div&gt;-Код посетителя:Integer&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-4">
-          <mxGeometry y="15" width="150" height="40" as="geometry" />
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-52" value="-Код заказа:Integer&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-4">
+          <mxGeometry y="30" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-58" value="+Добавить новый заказ()" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-4">
+          <mxGeometry y="68" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZKrvtM32GSq0_KtgD34R-5" value="База посетителей" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="540" width="160" height="130" as="geometry">
@@ -79,9 +82,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZKrvtM32GSq0_KtgD34R-9" value="Уведомление" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" width="160" height="130" as="geometry">
+          <mxGeometry x="720" width="170" height="130" as="geometry">
             <mxRectangle x="110" y="260" width="200" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-55" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ZKrvtM32GSq0_KtgD34R-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="70" as="sourcePoint" />
+            <mxPoint y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-56" value="-Код уведомления: Integer&lt;div&gt;-Статус уведомления: String&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-9">
+          <mxGeometry y="30" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-57" value="+Сообщить статус заказа&lt;div&gt;(Код заказа)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-9">
+          <mxGeometry y="65" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZKrvtM32GSq0_KtgD34R-10" value="Инвентарь" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="710" width="160" height="120" as="geometry">
@@ -102,17 +117,35 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZKrvtM32GSq0_KtgD34R-13" value="Каталог" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="220" width="160" height="120" as="geometry">
+          <mxGeometry x="300" y="220" width="160" height="120" as="geometry">
             <mxRectangle x="110" y="260" width="200" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZKrvtM32GSq0_KtgD34R-49" value="-Товары List &amp;lt;Товары&amp;gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-13">
-          <mxGeometry y="28" width="150" height="30" as="geometry" />
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-49" value="-Товары List &amp;lt;Товары&amp;gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-13">
+          <mxGeometry y="23" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-47" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ZKrvtM32GSq0_KtgD34R-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="59.5" as="sourcePoint" />
+            <mxPoint y="59.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ZKrvtM32GSq0_KtgD34R-14" value="База товаров" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="220" width="160" height="120" as="geometry">
+          <mxGeometry x="580" y="190" width="160" height="120" as="geometry">
             <mxRectangle x="110" y="260" width="200" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-53" value="&lt;span style=&quot;text-align: left;&quot;&gt;-Код товара:Integer&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-14">
+          <mxGeometry x="-10" y="23" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-54" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ZKrvtM32GSq0_KtgD34R-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="50" as="sourcePoint" />
+            <mxPoint y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-59" value="+Добавить новый&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;товар&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;в меню()&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-14">
+          <mxGeometry y="53" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZKrvtM32GSq0_KtgD34R-16" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZKrvtM32GSq0_KtgD34R-1" target="ZKrvtM32GSq0_KtgD34R-7">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -243,7 +276,8 @@
             <mxPoint x="450" y="250" as="sourcePoint" />
             <mxPoint x="670" y="260" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="880" y="120" />
+              <mxPoint x="920" y="98" />
+              <mxPoint x="920" y="573" />
               <mxPoint x="880" y="573" />
             </Array>
           </mxGeometry>
@@ -264,12 +298,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="210" as="sourcePoint" />
             <mxPoint x="110" y="210" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZKrvtM32GSq0_KtgD34R-47" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZKrvtM32GSq0_KtgD34R-13" target="ZKrvtM32GSq0_KtgD34R-13">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="295" y="200" as="sourcePoint" />
-            <mxPoint x="110" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
