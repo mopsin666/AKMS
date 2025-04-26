@@ -1,33 +1,42 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Страница — 1" id="EunMl4SevoFHpU-XDsfM">
-    <mxGraphModel dx="611" dy="1844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="403" dy="1844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZKrvtM32GSq0_KtgD34R-1" value="Личный кабинет посетителя" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="390" width="200" height="200" as="geometry">
+          <mxGeometry x="30" y="420" width="270" height="140" as="geometry">
             <mxRectangle x="110" y="260" width="200" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZKrvtM32GSq0_KtgD34R-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZKrvtM32GSq0_KtgD34R-1" target="ZKrvtM32GSq0_KtgD34R-1">
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ZKrvtM32GSq0_KtgD34R-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="290" as="sourcePoint" />
-            <mxPoint x="340" y="240" as="targetPoint" />
+            <mxPoint x="270" y="50" as="sourcePoint" />
+            <mxPoint y="50" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-44" value="-Код клиента: Intrger" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-1">
+          <mxGeometry x="-5" y="20" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-45" value="+ Оформить заказ()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;div&gt;+ Оплатить заказ(Код оплаты)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+Посмотреть каталог товаров&lt;/div&gt;&lt;div style=&quot;&quot;&gt;+Проверить уведомление(Код уведомления)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-1">
+          <mxGeometry y="50" width="270" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZKrvtM32GSq0_KtgD34R-3" value="Оплата" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="80" width="170" height="220" as="geometry">
+          <mxGeometry x="100" y="80" width="185" height="220" as="geometry">
             <mxRectangle x="110" y="260" width="200" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZKrvtM32GSq0_KtgD34R-40" value="+Код оплаты: Integer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-3">
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-40" value="-Код оплаты: Integer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-3">
           <mxGeometry x="-10" y="20" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZKrvtM32GSq0_KtgD34R-41" value="+Статус оплаты: String" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-3">
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-41" value="-Статус оплаты: String" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-3">
           <mxGeometry x="-10" y="40" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZKrvtM32GSq0_KtgD34R-42" value="+Дата оплаты: Integer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-3">
-          <mxGeometry x="-15" y="60" width="150" height="30" as="geometry" />
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-42" value="-Дата оплаты: Integer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-3">
+          <mxGeometry x="-10" y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-43" value="+ Добавить оплату()&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;div&gt;+ Изменить оплату(Код оплаты)&lt;/div&gt;&lt;div&gt;+Удалить оплату(Код оплаты)&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-3">
+          <mxGeometry x="-7.5" y="110" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZKrvtM32GSq0_KtgD34R-4" value="База заказов" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="30" width="170" height="130" as="geometry">
@@ -81,9 +90,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZKrvtM32GSq0_KtgD34R-13" value="Каталог" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="240" width="160" height="120" as="geometry">
+          <mxGeometry x="290" y="220" width="160" height="120" as="geometry">
             <mxRectangle x="110" y="260" width="200" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-49" value="-Товары List &amp;lt;Товары&amp;gt;&lt;div&gt;-&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZKrvtM32GSq0_KtgD34R-13">
+          <mxGeometry y="23" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZKrvtM32GSq0_KtgD34R-14" value="База товаров" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="220" width="160" height="120" as="geometry">
@@ -240,6 +252,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="210" as="sourcePoint" />
             <mxPoint x="110" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZKrvtM32GSq0_KtgD34R-47" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZKrvtM32GSq0_KtgD34R-13" target="ZKrvtM32GSq0_KtgD34R-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="295" y="200" as="sourcePoint" />
+            <mxPoint x="110" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
