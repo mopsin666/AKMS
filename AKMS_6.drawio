@@ -1,9 +1,54 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Страница — 1" id="QKt2evX4zZ8mMagah-4s">
-    <mxGraphModel>
+    <mxGraphModel dx="1394" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lsvjCovd1dEyMKXWD2To-81" value="Система приложения кофейни" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="1">
+          <mxGeometry x="30" y="230" width="1280" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="lsvjCovd1dEyMKXWD2To-88" value="Личный кабинет посетителя" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="lsvjCovd1dEyMKXWD2To-81">
+          <mxGeometry x="80" y="190" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lsvjCovd1dEyMKXWD2To-90" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="lsvjCovd1dEyMKXWD2To-88">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-70" y="70" as="sourcePoint" />
+            <mxPoint y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lsvjCovd1dEyMKXWD2To-94" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;entry/Авторизация&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;do/Посмотреть каталог товаров&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;do/Оформить заказ&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;do/Оплатить заказ&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;do/Проверить уведомления&lt;/span&gt;&lt;/div&gt;&lt;div&gt;do/Добавить товары в корзину&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lsvjCovd1dEyMKXWD2To-88">
+          <mxGeometry y="20" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lsvjCovd1dEyMKXWD2To-95" value="Оплата" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="lsvjCovd1dEyMKXWD2To-81">
+          <mxGeometry x="330" y="60" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lsvjCovd1dEyMKXWD2To-97" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;do/Добавить оплату&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;do/Удалить оплату&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;do/Присвоить статус&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;do/Изменить оплату&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lsvjCovd1dEyMKXWD2To-95">
+          <mxGeometry y="25" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lsvjCovd1dEyMKXWD2To-102" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.021;exitY=0.436;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="lsvjCovd1dEyMKXWD2To-81" source="lsvjCovd1dEyMKXWD2To-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="160" as="sourcePoint" />
+            <mxPoint x="330" y="254" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lsvjCovd1dEyMKXWD2To-103" value="Каталог" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1" parent="lsvjCovd1dEyMKXWD2To-81">
+          <mxGeometry x="330" y="225" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lsvjCovd1dEyMKXWD2To-104" value="&lt;div style=&quot;&quot;&gt;Список товаров&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lsvjCovd1dEyMKXWD2To-103">
+          <mxGeometry y="20" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lsvjCovd1dEyMKXWD2To-105" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="lsvjCovd1dEyMKXWD2To-81" source="lsvjCovd1dEyMKXWD2To-103" target="lsvjCovd1dEyMKXWD2To-95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="294" y="264" as="sourcePoint" />
+            <mxPoint x="340" y="264" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lsvjCovd1dEyMKXWD2To-89" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="lsvjCovd1dEyMKXWD2To-81">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="-10" y="490" as="sourcePoint" />
+            <mxPoint x="390" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
