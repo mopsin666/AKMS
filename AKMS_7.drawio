@@ -137,7 +137,7 @@
         <mxCell id="isBvtHBVdiavnymILCRP-36" value="Проверка наличии&lt;br&gt;товара" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="70" y="290" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="isBvtHBVdiavnymILCRP-37" value="Генерация отчетов" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="isBvtHBVdiavnymILCRP-37" value="Генерация&amp;nbsp;&lt;div&gt;отчетов&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="335" y="250" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="isBvtHBVdiavnymILCRP-38" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" parent="isBvtHBVdiavnymILCRP-37" vertex="1">
