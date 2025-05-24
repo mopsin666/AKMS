@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.8">
   <diagram name="Страница — 1" id="QKt2evX4zZ8mMagah-4s">
-    <mxGraphModel dx="2562" dy="1195" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="951" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -177,6 +177,41 @@
               <mxPoint x="850" y="260" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VFXdSf9DOxPuRH9jbH5X-66" value="Система приложения кофейни" style="swimlane;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="830" width="600" height="810" as="geometry" />
+        </mxCell>
+        <mxCell id="VFXdSf9DOxPuRH9jbH5X-67" value="Пользователь" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="VFXdSf9DOxPuRH9jbH5X-66">
+          <mxGeometry y="20" width="200" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="VFXdSf9DOxPuRH9jbH5X-63" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="VFXdSf9DOxPuRH9jbH5X-67">
+          <mxGeometry x="70" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VFXdSf9DOxPuRH9jbH5X-64" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="VFXdSf9DOxPuRH9jbH5X-63" parent="VFXdSf9DOxPuRH9jbH5X-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VFXdSf9DOxPuRH9jbH5X-70" value="Ввести логин и пароль" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VFXdSf9DOxPuRH9jbH5X-67">
+          <mxGeometry x="39" y="80" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VFXdSf9DOxPuRH9jbH5X-68" value="Приложение" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="VFXdSf9DOxPuRH9jbH5X-66">
+          <mxGeometry x="200" y="20" width="200" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="VFXdSf9DOxPuRH9jbH5X-71" value="Сверить логин и пароль с базой данных" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="VFXdSf9DOxPuRH9jbH5X-68">
+          <mxGeometry x="45" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VFXdSf9DOxPuRH9jbH5X-73" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="VFXdSf9DOxPuRH9jbH5X-68">
+          <mxGeometry x="90" y="90" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VFXdSf9DOxPuRH9jbH5X-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VFXdSf9DOxPuRH9jbH5X-68" source="VFXdSf9DOxPuRH9jbH5X-73" target="VFXdSf9DOxPuRH9jbH5X-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VFXdSf9DOxPuRH9jbH5X-69" value="Кофейня" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="VFXdSf9DOxPuRH9jbH5X-66">
+          <mxGeometry x="400" y="20" width="200" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="VFXdSf9DOxPuRH9jbH5X-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="VFXdSf9DOxPuRH9jbH5X-66" source="VFXdSf9DOxPuRH9jbH5X-70" target="VFXdSf9DOxPuRH9jbH5X-73">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
