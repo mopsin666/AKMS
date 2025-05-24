@@ -306,6 +306,9 @@
         <mxCell id="VFXdSf9DOxPuRH9jbH5X-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.029;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" parent="VFXdSf9DOxPuRH9jbH5X-37" source="VFXdSf9DOxPuRH9jbH5X-34" target="VFXdSf9DOxPuRH9jbH5X-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="IQ2pcD99wTaa_v3hP67y-16" value="Составить список &lt;br&gt;товаров" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VFXdSf9DOxPuRH9jbH5X-37">
+          <mxGeometry x="190" y="30" width="120" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="VFXdSf9DOxPuRH9jbH5X-43" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="VFXdSf9DOxPuRH9jbH5X-15" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="970" y="240" as="sourcePoint" />
