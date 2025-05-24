@@ -251,7 +251,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VFXdSf9DOxPuRH9jbH5X-19" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;entry/Авторизация&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;do/Показ личных данных&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;do/Показ уведомлений&lt;/span&gt;&lt;/div&gt;&lt;div&gt;do/Показ корзины&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="VFXdSf9DOxPuRH9jbH5X-17" vertex="1">
-          <mxGeometry y="45" width="160" height="70" as="geometry" />
+          <mxGeometry x="10" y="30" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VFXdSf9DOxPuRH9jbH5X-20" value="Каталог" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="VFXdSf9DOxPuRH9jbH5X-16" vertex="1">
           <mxGeometry x="340" y="115" width="150" height="50" as="geometry" />
@@ -358,22 +358,23 @@
           <mxGeometry y="30" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="IQ2pcD99wTaa_v3hP67y-3" value="Присвоить статус" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="VFXdSf9DOxPuRH9jbH5X-46">
-          <mxGeometry x="30" y="30" width="120" height="30" as="geometry" />
+          <mxGeometry x="20" y="30" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lsvjCovd1dEyMKXWD2To-95" value="Оплата" style="swimlane;startSize=20;horizontal=1;containerType=tree;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" parent="VFXdSf9DOxPuRH9jbH5X-15" vertex="1">
-          <mxGeometry x="420" y="390" width="200" height="120" as="geometry" />
+          <mxGeometry x="430" y="390" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="VFXdSf9DOxPuRH9jbH5X-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.222;entryDx=0;entryDy=0;entryPerimeter=0;" parent="lsvjCovd1dEyMKXWD2To-95" source="lsvjCovd1dEyMKXWD2To-97" target="lsvjCovd1dEyMKXWD2To-97" edge="1">
+        <mxCell id="VFXdSf9DOxPuRH9jbH5X-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="lsvjCovd1dEyMKXWD2To-95" source="lsvjCovd1dEyMKXWD2To-97" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-70" y="50" as="targetPoint" />
+            <mxPoint y="50" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-70" y="90" />
               <mxPoint x="-70" y="50" />
+              <mxPoint y="50" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lsvjCovd1dEyMKXWD2To-97" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;do/Добавить оплату&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;do/Удалить оплату&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;do/Присвоить статус&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;do/Изменить оплату&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="lsvjCovd1dEyMKXWD2To-95" vertex="1">
-          <mxGeometry y="30" width="140" height="90" as="geometry" />
+        <mxCell id="lsvjCovd1dEyMKXWD2To-97" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;entry/Показать доступные&lt;br&gt;способы оплаты&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;do/Добавить оплату&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;do/Удалить оплату&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;do/Присвоить статус&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;do/Изменить оплату&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="lsvjCovd1dEyMKXWD2To-95" vertex="1">
+          <mxGeometry y="20" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="VFXdSf9DOxPuRH9jbH5X-53" value="" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" parent="VFXdSf9DOxPuRH9jbH5X-15" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
