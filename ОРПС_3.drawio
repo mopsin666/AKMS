@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
   <diagram name="Страница — 1" id="c6xEdB5K4qL8h1SHKxz1">
-    <mxGraphModel dx="1753" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="611" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -314,6 +314,55 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="648" y="694.78" as="sourcePoint" />
             <mxPoint x="668" y="694.78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CNhippC-PvLOj3uCZCu6-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CNhippC-PvLOj3uCZCu6-86" target="CNhippC-PvLOj3uCZCu6-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNhippC-PvLOj3uCZCu6-98" value="1..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CNhippC-PvLOj3uCZCu6-90">
+          <mxGeometry x="-0.0967" y="3" relative="1" as="geometry">
+            <mxPoint x="-4" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CNhippC-PvLOj3uCZCu6-86" value="Менеджер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="101.25" y="1275" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CNhippC-PvLOj3uCZCu6-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CNhippC-PvLOj3uCZCu6-88" target="CNhippC-PvLOj3uCZCu6-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CNhippC-PvLOj3uCZCu6-88" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="648" y="1275" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CNhippC-PvLOj3uCZCu6-89" value="Оформить заказ на покупку продукции" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320.75" y="1270" width="134" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CNhippC-PvLOj3uCZCu6-92" value="Обеспечить клиента информацией" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1150" width="134" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CNhippC-PvLOj3uCZCu6-95" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CNhippC-PvLOj3uCZCu6-89" target="CNhippC-PvLOj3uCZCu6-92">
+          <mxGeometry x="-0.1344" y="21" width="160" relative="1" as="geometry">
+            <mxPoint x="220" y="1410" as="sourcePoint" />
+            <mxPoint x="380" y="1410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="1240" />
+            </Array>
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CNhippC-PvLOj3uCZCu6-96" value="Согласовать условия оплаты" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="347" y="1140" width="134" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CNhippC-PvLOj3uCZCu6-97" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CNhippC-PvLOj3uCZCu6-89" target="CNhippC-PvLOj3uCZCu6-96">
+          <mxGeometry x="-0.5786" y="14" width="160" relative="1" as="geometry">
+            <mxPoint x="386.75" y="1270" as="sourcePoint" />
+            <mxPoint x="289" y="1230" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CNhippC-PvLOj3uCZCu6-99" value="1..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="1290" as="geometry">
+            <mxPoint x="352" y="6" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
