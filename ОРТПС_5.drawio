@@ -309,7 +309,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zOm0lgOoo1_OCmQuzzGM-1" value="Менеджер" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1200" width="200" height="2600" as="geometry" />
+          <mxGeometry x="20" y="1200" width="200" height="2500" as="geometry" />
         </mxCell>
         <mxCell id="zOm0lgOoo1_OCmQuzzGM-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zOm0lgOoo1_OCmQuzzGM-1" source="zOm0lgOoo1_OCmQuzzGM-5" target="zOm0lgOoo1_OCmQuzzGM-6">
           <mxGeometry relative="1" as="geometry" />
@@ -348,7 +348,7 @@
           <mxGeometry x="33" y="2275" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zOm0lgOoo1_OCmQuzzGM-8" value="Система УСГП" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="1200" width="200" height="2600" as="geometry" />
+          <mxGeometry x="220" y="1200" width="200" height="2500" as="geometry" />
         </mxCell>
         <mxCell id="zOm0lgOoo1_OCmQuzzGM-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zOm0lgOoo1_OCmQuzzGM-8" source="zOm0lgOoo1_OCmQuzzGM-9" target="zOm0lgOoo1_OCmQuzzGM-44">
           <mxGeometry relative="1" as="geometry" />
@@ -399,7 +399,7 @@
           <mxGeometry x="75" y="2460" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zOm0lgOoo1_OCmQuzzGM-11" value="Кладовщик" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="1200" width="200" height="2600" as="geometry" />
+          <mxGeometry x="420" y="1200" width="200" height="2500" as="geometry" />
         </mxCell>
         <mxCell id="zOm0lgOoo1_OCmQuzzGM-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="zOm0lgOoo1_OCmQuzzGM-11">
           <mxGeometry x="85" y="40" width="30" height="30" as="geometry" />
@@ -426,7 +426,7 @@
           <mxGeometry x="40" y="990" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zOm0lgOoo1_OCmQuzzGM-15" value="Курьер" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="1200" width="200" height="2600" as="geometry" />
+          <mxGeometry x="620" y="1200" width="200" height="2500" as="geometry" />
         </mxCell>
         <mxCell id="zOm0lgOoo1_OCmQuzzGM-17" value="Доставить товар клиенту" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="zOm0lgOoo1_OCmQuzzGM-15">
           <mxGeometry x="40" y="1750" width="120" height="60" as="geometry" />
