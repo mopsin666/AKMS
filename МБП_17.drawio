@@ -300,8 +300,88 @@
         <mxCell id="Tt43UeJTm1oxCVTR95ne-66" value="Скалин С.Р." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="760" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Tt43UeJTm1oxCVTR95ne-72" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tt43UeJTm1oxCVTR95ne-72" target="Tt43UeJTm1oxCVTR95ne-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tt43UeJTm1oxCVTR95ne-72" target="Tt43UeJTm1oxCVTR95ne-76">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1250" y="190" />
+              <mxPoint x="1250" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tt43UeJTm1oxCVTR95ne-72" target="Tt43UeJTm1oxCVTR95ne-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1250" y="190" />
+              <mxPoint x="1250" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tt43UeJTm1oxCVTR95ne-72" target="Tt43UeJTm1oxCVTR95ne-77">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1250" y="190" />
+              <mxPoint x="1250" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Tt43UeJTm1oxCVTR95ne-72" target="Tt43UeJTm1oxCVTR95ne-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1250" y="190" />
+              <mxPoint x="1250" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-72" value="Отдел международного сотрудничества" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1120" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tt43UeJTm1oxCVTR95ne-74" target="Tt43UeJTm1oxCVTR95ne-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-74" value="Начальник отдела международного сотрудничества" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tt43UeJTm1oxCVTR95ne-75" target="Tt43UeJTm1oxCVTR95ne-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-75" value="Специалист по договорам" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tt43UeJTm1oxCVTR95ne-76" target="Tt43UeJTm1oxCVTR95ne-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-76" value="Заместитель начальника" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tt43UeJTm1oxCVTR95ne-77" target="Tt43UeJTm1oxCVTR95ne-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-77" value="Координатор" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Tt43UeJTm1oxCVTR95ne-78" target="Tt43UeJTm1oxCVTR95ne-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-78" value="Переводчик" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-84" value="Суворов И.М." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-85" value="Тимофеева С.Г." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-86" value="Галкина И.А." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-87" value="Крылов А.И." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Tt43UeJTm1oxCVTR95ne-88" value="Ушаков Д.Д." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
