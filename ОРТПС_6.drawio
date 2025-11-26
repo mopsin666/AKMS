@@ -50,13 +50,13 @@
           <mxGeometry height="30" width="60" x="300" y="160" as="geometry" />
         </mxCell>
         <mxCell id="auSlkTdreGGqnICnWWq6-26" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;align=center;" value="ID_Отчета" vertex="1">
-          <mxGeometry height="80" width="140" x="360" y="-200" as="geometry" />
+          <mxGeometry height="80" width="140" x="360" y="-190" as="geometry" />
         </mxCell>
         <mxCell id="auSlkTdreGGqnICnWWq6-27" parent="auSlkTdreGGqnICnWWq6-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Тип&lt;div&gt;ID_Заказа&lt;/div&gt;&lt;div&gt;Дата создания&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="140" y="30" as="geometry" />
         </mxCell>
         <mxCell id="auSlkTdreGGqnICnWWq6-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Отчеты и аналитика&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="120" x="370" y="-230" as="geometry" />
+          <mxGeometry height="30" width="120" x="370" y="-220" as="geometry" />
         </mxCell>
         <mxCell id="auSlkTdreGGqnICnWWq6-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=0;endArrow=oval;startSize=8;endSize=8;curved=0;rounded=0;fontSize=12;dashed=1;endFill=1;exitX=0.014;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.182;entryDx=0;entryDy=0;entryPerimeter=0;" target="auSlkTdreGGqnICnWWq6-1" value="">
           <mxGeometry relative="1" width="80" as="geometry">
@@ -129,9 +129,6 @@
           <mxGeometry x="450" y="160" as="geometry">
             <mxPoint x="-73" y="-15" as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="ZjLObzQsG9yiPV0fSg7b-3" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="УСГП_Система" vertex="1">
-          <mxGeometry height="76" width="160" x="150" y="-110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
