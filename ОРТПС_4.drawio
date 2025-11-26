@@ -358,9 +358,6 @@
         <mxCell id="10vwnEX9DgFA7ceUCjDh-2" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" value="Накладная" vertex="1">
           <mxGeometry height="80" width="80" x="436" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="10vwnEX9DgFA7ceUCjDh-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Измени на просто сплошные и просто пунктирные линиии" vertex="1">
-          <mxGeometry height="30" width="60" x="570" y="40" as="geometry" />
-        </mxCell>
         <mxCell id="9e3RsAeZN-5iCk2rmuO6-2" edge="1" parent="1" source="CVHEghk_Nnfj6qceOMS--43" style="endArrow=none;html=1;rounded=0;exitX=0.943;exitY=0.413;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="10vwnEX9DgFA7ceUCjDh-2" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="350" y="90" as="sourcePoint" />
