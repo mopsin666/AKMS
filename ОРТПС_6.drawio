@@ -151,7 +151,7 @@
         </mxCell>
         <mxCell id="ZjLObzQsG9yiPV0fSg7b-14" connectable="0" parent="ZjLObzQsG9yiPV0fSg7b-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Оформлена/&lt;br&gt;Может оформить&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.5368" y="2" as="geometry">
-            <mxPoint x="-42" y="-23" as="offset" />
+            <mxPoint x="-32" y="-18" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZjLObzQsG9yiPV0fSg7b-16" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Просмотрена/&lt;br&gt;Может просмотреть&lt;/span&gt;" vertex="1">
