@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.6">
   <diagram name="Страница — 1" id="W0XQy2ZS7M2Uhs5k6bSt">
-    <mxGraphModel dx="1097" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1103" dy="1228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,7 @@
         <mxCell id="auSlkTdreGGqnICnWWq6-27" parent="auSlkTdreGGqnICnWWq6-26" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Тип&lt;div&gt;ID_Заказа&lt;br&gt;ID_Сотрудника&lt;/div&gt;&lt;div&gt;Дата создания&lt;br&gt;Рассчитанные показатели&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="140" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="auSlkTdreGGqnICnWWq6-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Отчеты и аналитика&lt;/font&gt;" vertex="1">
+        <mxCell id="auSlkTdreGGqnICnWWq6-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Отчеты&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="120" x="370" y="-250" as="geometry" />
         </mxCell>
         <mxCell id="auSlkTdreGGqnICnWWq6-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=0;endArrow=oval;startSize=8;endSize=8;curved=0;rounded=0;fontSize=12;dashed=1;endFill=1;exitX=0.014;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.182;entryDx=0;entryDy=0;entryPerimeter=0;" target="auSlkTdreGGqnICnWWq6-1" value="">
