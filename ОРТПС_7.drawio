@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="Страница-1" id="OQd0kiHHBZPRMP9Ebv4V">
-    <mxGraphModel dx="1426" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1665" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -318,22 +318,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="g8q5CuoakmO2xArNDQ2C-84" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Клиенты" vertex="1">
-          <mxGeometry height="590" width="200" x="40" y="560" as="geometry" />
-        </mxCell>
-        <mxCell id="g8q5CuoakmO2xArNDQ2C-86" parent="g8q5CuoakmO2xArNDQ2C-84" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="&amp;lt;&amp;lt;web-browser&amp;gt;&amp;gt;&lt;br&gt;Клиент" vertex="1">
-          <mxGeometry height="100" width="160" x="20" y="50" as="geometry" />
+          <mxGeometry height="500" width="200" x="40" y="560" as="geometry" />
         </mxCell>
         <mxCell id="g8q5CuoakmO2xArNDQ2C-87" parent="g8q5CuoakmO2xArNDQ2C-84" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="&amp;lt;&amp;lt;web-browser&amp;gt;&amp;gt;&lt;br&gt;Кладовщик" vertex="1">
-          <mxGeometry height="100" width="160" x="20" y="170" as="geometry" />
+          <mxGeometry height="100" width="160" x="20" y="40" as="geometry" />
         </mxCell>
         <mxCell id="g8q5CuoakmO2xArNDQ2C-88" parent="g8q5CuoakmO2xArNDQ2C-84" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="&amp;lt;&amp;lt;web-browser&amp;gt;&amp;gt;&lt;br&gt;Менеджер" vertex="1">
-          <mxGeometry height="100" width="160" x="20" y="300" as="geometry" />
+          <mxGeometry height="100" width="160" x="20" y="170" as="geometry" />
         </mxCell>
         <mxCell id="g8q5CuoakmO2xArNDQ2C-89" parent="g8q5CuoakmO2xArNDQ2C-84" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="&amp;lt;&amp;lt;web-browser&amp;gt;&amp;gt;&lt;br&gt;Курьер" vertex="1">
-          <mxGeometry height="100" width="160" x="20" y="430" as="geometry" />
+          <mxGeometry height="100" width="160" x="20" y="300" as="geometry" />
         </mxCell>
         <mxCell id="g8q5CuoakmO2xArNDQ2C-85" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Сервер" vertex="1">
-          <mxGeometry height="590" width="490" x="290" y="560" as="geometry" />
+          <mxGeometry height="500" width="490" x="290" y="560" as="geometry" />
         </mxCell>
         <mxCell id="g8q5CuoakmO2xArNDQ2C-90" parent="g8q5CuoakmO2xArNDQ2C-85" style="html=1;dropTarget=0;whiteSpace=wrap;" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&quot;Sales of finished products&quot;" vertex="1">
           <mxGeometry height="90" width="180" x="40" y="70" as="geometry" />
@@ -387,9 +384,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="g8q5CuoakmO2xArNDQ2C-103" edge="1" parent="g8q5CuoakmO2xArNDQ2C-85" source="g8q5CuoakmO2xArNDQ2C-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.496;entryY=0.974;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="g8q5CuoakmO2xArNDQ2C-99">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="g8q5CuoakmO2xArNDQ2C-104" edge="1" parent="1" source="g8q5CuoakmO2xArNDQ2C-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=65;entryDy=180;entryPerimeter=0;endArrow=none;endFill=0;" target="g8q5CuoakmO2xArNDQ2C-92">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="g8q5CuoakmO2xArNDQ2C-106" edge="1" parent="1" source="g8q5CuoakmO2xArNDQ2C-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=65;entryDy=180;entryPerimeter=0;endArrow=none;endFill=0;" target="g8q5CuoakmO2xArNDQ2C-92">
