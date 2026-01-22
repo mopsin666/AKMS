@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="Страница — 1" id="Cmj4addt4Zna9MlmtnfC">
-    <mxGraphModel dx="1665" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="876" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -270,7 +270,7 @@
             <mxPoint x="864.47" y="441" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xYiMJ6MNULkfRKV8W0zR-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Система УСГП" vertex="1">
+        <mxCell id="xYiMJ6MNULkfRKV8W0zR-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Система SaleControl" vertex="1">
           <mxGeometry height="60" width="130" x="1021" y="31" as="geometry" />
         </mxCell>
         <mxCell id="xYiMJ6MNULkfRKV8W0zR-32" edge="1" parent="1" source="xYiMJ6MNULkfRKV8W0zR-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;elbow=vertical;" target="xYiMJ6MNULkfRKV8W0zR-6">
@@ -400,7 +400,7 @@
             <mxPoint x="-63" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xYiMJ6MNULkfRKV8W0zR-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Система УСГП" vertex="1">
+        <mxCell id="xYiMJ6MNULkfRKV8W0zR-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Система SaleControl" vertex="1">
           <mxGeometry height="60" width="130" x="1510" y="31" as="geometry" />
         </mxCell>
         <mxCell id="xYiMJ6MNULkfRKV8W0zR-64" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Кладовщик" vertex="1">
@@ -547,7 +547,7 @@
             <mxPoint x="1850" y="181" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Va0URVwfOHZ9MBWedBaR-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Система УСГП" vertex="1">
+        <mxCell id="Va0URVwfOHZ9MBWedBaR-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Система SaleControl" vertex="1">
           <mxGeometry height="60" width="130" x="2000" y="41" as="geometry" />
         </mxCell>
         <mxCell id="Va0URVwfOHZ9MBWedBaR-12" edge="1" parent="1" source="Va0URVwfOHZ9MBWedBaR-15" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
